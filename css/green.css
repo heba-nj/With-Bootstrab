@@ -1,0 +1,111 @@
+:root {
+    --dark-color: #004b49;
+    --second-color: #44d7a8;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.combonents h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--dark-color);
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.combonents .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.combonents svg {
+    color: var(--dark-color);
+    font-size: 30px;
+}
+.combonents .divider .divider-custom-line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    background-color: var(--dark-color);
+}
+.navbar {
+    background-color: var(--dark-color);
+}
+.navbar .navbar-brand {
+    font-size: 30px;
+}
+.navbar .navbar-nav .nav-link {
+    color: white;
+    text-transform: uppercase;
+}
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--second-color);
+}
+.navbar-toggler {
+    background-color: var(--second-color);
+    font-size: 80%;
+    padding: 0.8rem;
+}
+.navbar-toggler[aria-expanded="true"] {
+    border-color: white;
+}
+.section .image {
+    width: 250px;
+    padding-top: 50px;
+}
+.section {
+    background-color: var(--second-color);
+    height: 700px;
+}
+.section .words {
+    font-weight: 300;
+}
+.portfolio {
+    font-size: 50px;
+}
+.portfolio .container .row img {
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+.contact .but button {
+    padding: 20px 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.about {
+    background-color: var(--second-color);
+}
+.about .text {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: white;
+}
+.load .btn {
+    font-size: 20px;
+    font-weight: 300;
+}
+.footer {
+    background-color: var(--dark-color);
+}
+.footer .btn-social {
+    border-radius: 100%;
+}
+.footer .color {
+    color: var(--second-color);
+}
+.footer:not(h4) {
+    font-weight: 300;
+}
+.copyright small {
+    font-weight: 300;
+    text-decoration: none;
+}
+.copyright span {
+    color: crimson;
+    font-weight: bold;
+}
